@@ -1,0 +1,80 @@
+* {
+    padding:0;
+    margin:0
+}
+
+body {
+    display: flex;
+    overflow:auto
+}
+
+.sidebar {
+    width:10%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position:fixed
+}
+
+a {
+    text-decoration: none;
+}
+
+.api-item {
+    list-style: none;
+    color:black;
+    height:fit-content;
+    width:100%;
+    text-align: justify;
+    margin: 15px 0px;
+    padding:10px;
+}
+
+.api-item:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.apis {
+    width:90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    gap:10px;
+}
+
+.listing, .add, .update {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.api-info {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    padding: 50px;
+    background-color: black;
+}
+
+.api-description {
+ font-size: 18px;
+ display: flex;
+ flex-direction: column;
+ gap:30px
+}
+
+.api-response {
+    width:50%;
+    background-color: #fff;
+    color:black;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
